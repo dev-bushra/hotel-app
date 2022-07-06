@@ -1,11 +1,11 @@
 const Footer = () => {
     return (
-        <div class="bg-dark text-center text-lg-start text-white mt-5">
+        <div class=" text-center text-lg-start text-white mt-5 footer">
             <hr />
             <div class="container p-4">
                 <div class="row mt-4">
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">See other Hotels</h5>
+                        <h5 class="text-uppercase text-primary">See other Hotels</h5>
 
                         <ul class="list-unstyled mb-0">
                             <li>
@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Execution of the contract</h5>
+                        <h5 class="text-uppercase text-primary">Contract</h5>
 
                         <ul class="list-unstyled">
                             <li>
@@ -40,7 +40,7 @@ const Footer = () => {
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Publishing</h5>
+                        <h5 class="text-uppercase text-primary">Publishing</h5>
 
                         <ul class="list-unstyled">
                             <li>
@@ -59,7 +59,7 @@ const Footer = () => {
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Write to us</h5>
+                        <h5 class="text-uppercase text-primary">Write to us</h5>
                         <ul class="list-unstyled">
                             <li>
                                 <a href="#!" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Help us</a>

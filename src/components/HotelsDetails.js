@@ -2,7 +2,6 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Gallary from "./Taps/Gallary";
 import Details from "./Taps/Details";
-import hotelImg from '../assets/4.jpg'
 import { fillStar, halfFillStar, Star, map } from './svg'
 import { useState } from "react";
 
@@ -10,7 +9,7 @@ const HotelsDetails = () => {
     const [rate, setRate] = useState('(5.2)');
     const [isGallary, setIsGallary] = useState(true);
     const [isDetails, setIsDetails] = useState(false);
-
+    
     const toggleGallary = () => {
         setIsGallary(true);
         setIsDetails(false);
@@ -21,10 +20,10 @@ const HotelsDetails = () => {
     }
 
     return (
-        <div class="bg-dark text-light">
+        <div class="text-light">
             <Navbar />
             <div class="">
-                <img class="" src={hotelImg} width="100%" />
+                <div class="hotelImg"></div>
                 <div class="m-5">
                     <h3 class="text-light">Sloane Square Hotel</h3>
                     <div class="stars text-yellow-500" style={{'color':'#ffc107'}}>

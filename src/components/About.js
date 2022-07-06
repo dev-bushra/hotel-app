@@ -1,5 +1,5 @@
 import Footer from "./Footer";
-import '../about.css'
+import '../style/about.css'
 import img from '../assets/2.jpg'
 
 const About = () => {

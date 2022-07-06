@@ -4,15 +4,16 @@ import Footer from './Footer';
 import Header from './Header';
 import SpecialOffers from './SpecialOffers';
 import HotelsList from './HotelsList';
+import BestHotels from './BestHotels';
 
 function Home() {
-
   return (
-    <div className="App bg-dark text-light">
+    <div className="App text-light">
       <Navbar />
       <Header />
       <SpecialOffers />
       <HotelsList />
+      <BestHotels />
       <Footer />
     </div>
   );

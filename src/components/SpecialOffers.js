@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { circle, filledCircle } from './svg'
+import { circle, filledCircle, nextArrow, prevArrow } from './svg'
 
 const SpecialOffers = () => {
     const [hotels, setHotels] = useState({
@@ -13,11 +13,12 @@ const SpecialOffers = () => {
     return (
         <div class="mt-5 pt-5">
             <h5 class="fs-3 text-center text-light letter-spacing">SPECIAL OFFERS</h5>
-
+            {/* <spna><i class="bi bi-arrow-right-circle"></i></spna> */}
+            <span class="nextArrow" data-aos="fade-left">{ nextArrow }</span>
             <div class="d-flex ms-3 special-offer-container">
                 <div class="carousel">
 
-                    <div class="carousel--wrap">
+                    <div class="carousel--wrap" data-aos="fade-left">
                         <div class="carousel--item ">
                             <figure class="hover-effect"><img src={hotels.dubai} alt="" /></figure>
                             <h2>Dubai</h2>
@@ -43,7 +44,39 @@ const SpecialOffers = () => {
                 </div>
             </div>
 
-            <h5 class="fs-5 mb-3 text-center text-light">{circle} {filledCircle} {circle} {circle}</h5>
+            <h5 class="fs-5 mb-3 ms-5 ps-3 text-light" data-aos="fade-right">{circle} {filledCircle} {circle} {circle}</h5>
+
+            <div class="d-flex ms-3 special-offer-container-2" data-aos="fade-right">
+                <div class="carousel2">
+
+                    <div class="carousel--wrap2">
+                        <div class="carousel--item2">
+                            <figure class="hover-effect"><img src={hotels.dubai} alt="" /></figure>
+                            <h2>Dubai</h2>
+                        </div>
+
+                        <div class="carousel--item2">
+                            <figure class="hover-effect"><img src={hotels.sharga} alt="" /></figure>
+                            <h2>Sharga</h2>
+                        </div>
+
+                        <div class="carousel--item2">
+                            <figure class="hover-effect"><img src={hotels.ain} alt="" /></figure>
+                            <h2>Al Ain</h2>
+                        </div>
+                        
+                        <div class="carousel--item2">
+                            <figure class="hover-effect"><img src={hotels.abudabi} alt="" /></figure>
+                            <h2>Abu Dahbi</h2>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <span class="prevArrow" data-aos="fade-right">{ prevArrow }</span>
+            
             <p></p>
         </div>
     );

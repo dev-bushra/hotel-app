@@ -17,7 +17,7 @@ const HotelsList = () => {
             <div class="d-flex p-3 pb-5">
                 <div class="container ">
                     <div class="row row-cols-4">
-                        <div class="col hotels-list ">
+                        <div class="col hotels-list " data-aos="flip-left">
                             <img class="img-fluid rounded" src={hotels.dubai} width="300px" />
                             <hr class="ms-2" width="90%" />
                             <span class="fs-6 fw-bold">Royal King Hotalil</span>
@@ -33,7 +33,7 @@ const HotelsList = () => {
                             </div>
                         </div>
 
-                        <div class="col hotels-list ">
+                        <div class="col hotels-list "data-aos="flip-left">
                             <img class="img-fluid rounded" src={hotels.abudabi} width="300px" />
                             <hr class="ms-2" width="90%" />
                             <span class="fs-6 fw-bold">Salma Hotels</span>
@@ -49,7 +49,7 @@ const HotelsList = () => {
                             </div>
                         </div>
 
-                        <div class="col hotels-list ">
+                        <div class="col hotels-list "data-aos="flip-left">
                             <img class="img-fluid rounded" src={hotels.sharga} width="300px" />
                             <hr class="ms-2" width="90%" />
                             <span class="fs-6 fw-bold">Mama Queen</span>
@@ -65,7 +65,141 @@ const HotelsList = () => {
                             </div>
                         </div>
 
-                        <div class="col hotels-list ">
+                        <div class="col hotels-list "data-aos="flip-left">
+                            <img class="img-fluid rounded" src={hotels.dubai} width="300px" />
+                            <hr class="ms-2" width="90%" />
+                            <span class="fs-6 fw-bold">Splash Hotels</span>
+                            <em class="fw-lighter ms-3">Dubai, UEA</em>
+                            <div class="stars text-yellow-500">
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="ms-3 text-light fw-semibold">(4.0)</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row row-cols-4 mt-5">
+                        <div class="col hotels-list " data-aos="flip-left">
+                            <img class="img-fluid rounded" src={hotels.dubai} width="300px" />
+                            <hr class="ms-2" width="90%" />
+                            <span class="fs-6 fw-bold">Royal King Hotalil</span>
+                            <em class="fw-lighter ms-3">Dubai, UEA</em>
+                            <div class="stars text-yellow-500">
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{halfFillStar}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="ms-3 text-light fw-semibold">(2.9)</span>
+                            </div>
+                        </div>
+
+                        <div class="col hotels-list "data-aos="flip-left">
+                            <img class="img-fluid rounded" src={hotels.abudabi} width="300px" />
+                            <hr class="ms-2" width="90%" />
+                            <span class="fs-6 fw-bold">Salma Hotels</span>
+                            <em class="fw-lighter ms-3">Sharga, UEA</em>
+                            <div class="stars text-yellow-500">
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="ms-3 text-light fw-semibold">(7.5)</span>
+                            </div>
+                        </div>
+
+                        <div class="col hotels-list "data-aos="flip-left">
+                            <img class="img-fluid rounded" src={hotels.sharga} width="300px" />
+                            <hr class="ms-2" width="90%" />
+                            <span class="fs-6 fw-bold">Mama Queen</span>
+                            <em class="fw-lighter ms-3">Ain, UEA</em>
+                            <div class="stars text-yellow-500">
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="ms-3 text-light fw-semibold">(9.9)</span>
+                            </div>
+                        </div>
+
+                        <div class="col hotels-list "data-aos="flip-left">
+                            <img class="img-fluid rounded" src={hotels.dubai} width="300px" />
+                            <hr class="ms-2" width="90%" />
+                            <span class="fs-6 fw-bold">Splash Hotels</span>
+                            <em class="fw-lighter ms-3">Dubai, UEA</em>
+                            <div class="stars text-yellow-500">
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="ms-3 text-light fw-semibold">(4.0)</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row row-cols-4 mt-5">
+                        <div class="col hotels-list " data-aos="flip-left">
+                            <img class="img-fluid rounded" src={hotels.dubai} width="300px" />
+                            <hr class="ms-2" width="90%" />
+                            <span class="fs-6 fw-bold">Royal King Hotalil</span>
+                            <em class="fw-lighter ms-3">Dubai, UEA</em>
+                            <div class="stars text-yellow-500">
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{halfFillStar}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="ms-3 text-light fw-semibold">(2.9)</span>
+                            </div>
+                        </div>
+
+                        <div class="col hotels-list "data-aos="flip-left">
+                            <img class="img-fluid rounded" src={hotels.abudabi} width="300px" />
+                            <hr class="ms-2" width="90%" />
+                            <span class="fs-6 fw-bold">Salma Hotels</span>
+                            <em class="fw-lighter ms-3">Sharga, UEA</em>
+                            <div class="stars text-yellow-500">
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{Star}</span>
+                                <span class="ms-3 text-light fw-semibold">(7.5)</span>
+                            </div>
+                        </div>
+
+                        <div class="col hotels-list "data-aos="flip-left">
+                            <img class="img-fluid rounded" src={hotels.sharga} width="300px" />
+                            <hr class="ms-2" width="90%" />
+                            <span class="fs-6 fw-bold">Mama Queen</span>
+                            <em class="fw-lighter ms-3">Ain, UEA</em>
+                            <div class="stars text-yellow-500">
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="me-1">{fillStar}</span>
+                                <span class="ms-3 text-light fw-semibold">(9.9)</span>
+                            </div>
+                        </div>
+
+                        <div class="col hotels-list "data-aos="flip-left">
                             <img class="img-fluid rounded" src={hotels.dubai} width="300px" />
                             <hr class="ms-2" width="90%" />
                             <span class="fs-6 fw-bold">Splash Hotels</span>
